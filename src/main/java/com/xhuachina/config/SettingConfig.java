@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class SettingConfig implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
-
+        //初始化
         Constants.initArtemisConfig();
     }
 }
