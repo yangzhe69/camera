@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /camera
+
+ArtemisConfig:
+  host: 172.16.97.127
+  appKey: 22197261
+  appSecret: qkdjw31hRIpguWX8goNt
+  ARTEMIS_PATH: /artemis
+
+debug: false
